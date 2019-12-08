@@ -14,8 +14,8 @@ public class Principal {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Cliente c1 = new Cliente("1054089743",0.00,"0953530847","MARIO_LUZARDO");
-		
+		Cliente c1 =new Cliente();
+		c1.abrirCuenta();
 	}
 
 }
