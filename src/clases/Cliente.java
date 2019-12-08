@@ -11,8 +11,8 @@ public class Cliente extends Cuenta{
 	private String codigo;
 	private String nombre;
 	private String [] lista;
-	public Cliente(String numeroCuenta, double saldo, String codigo, String nombre, String [] lista) {
-	//	super(numeroCuenta,saldo);
+	public Cliente(String numeroCuenta, double saldo, String codigo, String nombre) {
+		super(numeroCuenta,saldo);
 		this.codigo=codigo;
 		this.nombre=nombre;
 		this.lista=lista;
