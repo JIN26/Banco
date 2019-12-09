@@ -16,6 +16,7 @@ public class Principal {
 		// TODO Auto-generated method stub
 		Cliente c1 =new Cliente();
 		c1.abrirCuenta();
+		c1.getLista(1).depositar(100);
 	}
 
 }

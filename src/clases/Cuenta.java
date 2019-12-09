@@ -27,16 +27,19 @@ public class Cuenta {
 	public void setSaldo(double saldo) {
 		this.saldo=saldo;
 	}
-	protected void saldoDisponible() {
-		System.out.println("null");
+	public void saldoDisponible() {
+		System.out.println(this.saldo);
 	}
-	protected void depositar() {
-		System.out.println("null");
+	public void depositar(int x) {
+		this.saldo+=x;
+		System.out.println(this.saldo);
 	}
-	protected void retirar() {
-		System.out.println("null");
+	public void retirar(int x) {
+		this.saldo-=x;
+		System.out.println(this.saldo);
 	}
-	protected void pagar() {
-		System.out.println("null");
+	public void pagar(int x) {
+		this.saldo-=x;
+		System.out.println(this.saldo);
 	}
 }
